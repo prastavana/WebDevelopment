@@ -1,0 +1,68 @@
+/* Register.css */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.profile-content {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 60vw;
+}
+
+.profile-title {
+    text-align: center;
+    color: white;
+}
+
+.profile-row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.save-button {
+    background-color:#77aaff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 10vw;
+}
+
+.save-button:hover {
+    background-color: #99ccff ;
+}
+
+/* New styles for Register link */
+.login-link {
+    color: white; /* Change color of "Don't have an account?" text to white */
+    margin-top: 12px;
+
+}
+
+.login-link a {
+    color: #b8f5ff; /* Change color of "Register" link to light blue */
+    font-weight: bold;
+}

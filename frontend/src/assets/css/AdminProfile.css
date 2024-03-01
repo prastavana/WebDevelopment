@@ -1,0 +1,227 @@
+
+.Admprofile-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.Admprofile-buttons{
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+
+}
+.Admprofile-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+.Admprofile-btn button{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+.Admprofile-btn button i{
+    margin-right: 10px;
+}
+.Admprofile-top span{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.Admprofile-top i{
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.Admprofile-btn button.products:hover {
+    background-color: lightgray;
+
+
+}
+.Admprofile-btn button.product{
+    background-color: lightgrey;
+}
+
+.Admprofile-display h2{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.Admprofile-display label{
+    color: white;
+}
+.Admprofile-display{
+    display: flex;
+    margin:10px;
+    flex-direction: column;
+}
+.Admprofile-display input{
+    width: 200%;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+
+}
+.Admprofile-ap-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+
+}
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.Admprofile-ap-dropdown i{
+    margin-left: 7px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.Admprofile-ap-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+/* Links inside the dropdown */
+.Admprofile-ap-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.Admprofile-ap-dropbtn{
+    height: 46%;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.Admprofile-ap-dropdown-content a:hover {background-color: lightgrey;color: black}
+
+/* Show the dropdown menu on hover */
+.Admprofile-ap-dropdown:hover .Admprofile-ap-dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.Admprofile-ap-dropdown:hover .Admprofile-ap-dropbtn {background-color: transparent}
+
+.Admprofile-cat-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.Admprofile-cat-dropdown i{
+    margin-left: 7px;
+}
+.Admprofile-cat-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+.Admprofile-cat-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.Admprofile-cat-dropbtn{
+    height: 46%;
+}
+.Admprofile-cat-dropdown-content a:hover {background-color: lightgrey;color: black}
+.Admprofile-cat-dropdown:hover .Admprofile-cat-dropdown-content {display: block;}
+.Admprofile-cat-dropdown:hover .Admprofile-cat-dropbtn {background-color: transparent}
+
+.Admprofile-brand-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.Admprofile-brand-dropdown i{
+    margin-left: 7px;
+}
+.Admprofile-brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+.Admprofile-brand-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.Admprofile-brand-dropbtn{
+    height: 46%;
+}
+.Admprofile-brand-dropdown-content a:hover {background-color: lightgrey;color: black}
+.Admprofile-brand-dropdown:hover .Admprofile-brand-dropdown-content {display: block;}
+.Admprofile-brand-dropdown:hover .Admprofile-brand-dropbtn {background-color: transparent}
+
+
+.Admprofile-pro-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.Admprofile-pro-dropdown i{
+    margin-left: 7px;
+}
+.Admprofile-pro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.Admprofile-pro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.Admprofile-pro-dropbtn{
+    height: 46%;
+}
+.Admprofile-pro-dropdown-content a:hover {background-color: lightgrey;color: black}
+.Admprofile-pro-dropdown:hover .Admprofile-pro-dropdown-content {display: block;}
+.Admprofile-pro-dropdown:hover .Admprofile-pro-dropbtn {background-color: transparent}

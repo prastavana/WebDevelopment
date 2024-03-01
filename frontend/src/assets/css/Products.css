@@ -1,0 +1,268 @@
+.Prod-container{
+    display: flex;
+    height: 400vh;
+    background-color: transparent;
+}
+.Prod-buttons{
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+
+}
+.Prod-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+.Prod-btn button{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+.Prod-btn button i{
+   margin-right: 10px;
+}
+.Prod-top span{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.Prod-top i{
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+.Prod-display{
+    width: 82vw;
+    color: #bbeaff;
+
+}
+.Prod-btn button.products:hover {
+    background-color: transparent;
+
+
+}
+.Prod-btn button.product{
+    background-color: transparent;
+}
+
+.Prod-display h2{
+    font-size: 20px;
+    margin: 10px;
+}
+.Prod-display table{
+    margin: 10px;
+    width: 81vw;
+
+}
+
+.Prod-display th{
+    border: 2px solid #bbeaff; /* Add borders to cells for better visibility */
+}
+.Prod-display tr{
+    border: 2px solid black; /* Add borders to cells for better visibility */
+}
+.Prod-display td{
+    height: 20vh;
+    max-width: 10vh;
+    border: 2px solid black; /* Add borders to cells for better visibility */
+}
+
+.adminpro-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+
+}
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.adminpro-dropdown i{
+    margin-left: 7px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.adminpro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+/* Links inside the dropdown */
+.adminpro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.adminpro-dropbtn{
+    height: 46%;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.adminpro-dropdown-content a:hover {background-color: transparent;color: transparent}
+
+/* Show the dropdown menu on hover */
+.adminpro-dropdown:hover .adminpro-dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.adminpro-dropdown:hover .adminpro-dropbtn {background-color: transparent}
+
+.catadm-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.catadm-dropdown i{
+    margin-left: 7px;
+}
+.catadm-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+.catadm-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.catadm-dropbtn{
+    height: 46%;
+}
+.catadm-dropdown-content a:hover {background-color: lightgrey;color: black}
+.catadm-dropdown:hover .catadm-dropdown-content {display: block;}
+.catadm-dropdown:hover .catadm-dropbtn {background-color: transparent}
+
+.brandadm-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.brandadm-dropdown i{
+    margin-left: 7px;
+}
+.brandadm-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+.brandadm-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.brandadm-dropbtn{
+    height: 46%;
+}
+.brandadm-dropdown-content a:hover {background-color: lightgrey;color: black}
+.brandadm-dropdown:hover .brandadm-dropdown-content {display: block;}
+.brandadm-dropdown:hover .brandadm-dropbtn {background-color: transparent}
+
+
+.admpro-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.admpro-dropdown i{
+    margin-left: 7px;
+}
+.admpro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.admpro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.admpro-dropbtn{
+    height: 46%;
+}
+.admpro-dropdown-content a:hover {background-color: lightgrey;color: black}
+.admpro-dropdown:hover .admpro-dropdown-content {display: block;}
+.admpro-dropdown:hover .admpro-dropbtn {background-color: transparent}
+.product-image {
+    width: 130px;
+    height: 120px;
+    margin-left: 30px;
+}
+td button {
+    padding: 8px 12px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff; /* Text color, adjust accordingly */
+    font-weight: bold;
+    margin: 8px;
+}
+
+/* Update Button Styles */
+td button.update {
+    background-color: grey;
+    width: 65px;
+
+}
+
+/* Delete Button Styles */
+td button.delete {
+    background-color: red;
+}
+
+.products{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+    margin-left: 1px;
+}
+
+
+

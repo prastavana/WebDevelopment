@@ -1,0 +1,291 @@
+.admin-pro-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+
+}
+.admin-pro-buttons{
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+
+
+}
+.admin-pr-button{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 10px;
+}
+.admin-pr-button button{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+
+}
+.admin-pr-button button i{
+    margin-right: 10px;
+}
+.admin-pro-top span{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.admin-pro-top i{
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.admin-pr-button button.products:hover {
+    background-color: transparent;
+
+
+
+}
+.admin-pr-btn button.product{
+    background-color: transparent;
+}
+
+.admin-display h2{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.admin-display{
+    display: flex;
+    flex-direction: column;
+
+}
+.admin-details{
+    display: flex;
+    column-gap: 350px;
+    margin: 10px;
+
+
+}
+.admin-firstrow{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.admin-secondrow{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 22%;
+
+
+}
+.admin-details input{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    width: 160%;
+
+}
+.product-description-input{
+    height: 90px;
+}
+.admin-details input::placeholder{
+    color: black;
+
+}
+select {
+    background-color: white; /* Set the background color */
+    color: black; /* Set the text color */
+    border: 2px solid black;
+    width: 160%;
+    cursor: pointer;
+}
+.admin-secondrow span{
+    color: black;
+
+}
+.admin-btn{
+    margin-left: 545px;
+    font-size: 15px;
+}
+/* Dropdown Button */
+.admin-pro-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.admin-pro-dropdown i{
+    margin-left: 7px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.admin-pro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+/* Links inside the dropdown */
+.admin-pro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.admin-pro-dropbtn{
+    height: 46%;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.admin-pro-dropdown-content a:hover {background-color: lightgrey;color: black}
+
+/* Show the dropdown menu on hover */
+.admin-pro-dropdown:hover .admin-pro-dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.admin-pro-dropdown:hover .admin-pro-dropbtn {background-color: cornflowerblue}
+
+.admin-cat-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.admin-cat-dropdown i{
+    margin-left: 7px;
+}
+.admin-cat-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+.admin-cat-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.admin-cat-dropbtn{
+    height: 46%;
+}
+.admin-cat-dropdown-content a:hover {background-color: lightgrey;color: black}
+.admin-cat-dropdown:hover .admin-cat-dropdown-content {display: block;}
+.admin-cat-dropdown:hover .admin-cat-dropbtn {background-color: cornflowerblue}
+
+.admin-brand-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.admin-brand-dropdown i{
+    margin-left: 7px;
+
+}
+.admin-brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+.admin-brand-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.admin-brand-dropbtn{
+    height: 46%;
+}
+.admin-brand-dropdown-content a:hover {background-color: transparent;color: transparent}
+.admin-brand-dropdown:hover .admin-brand-dropdown-content {display: block;}
+.admin-brand-dropdown:hover .admin-brand-dropbtn {background-color: cornflowerblue}
+
+
+.admin-profile-dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.admin-profile-dropdown i{
+    margin-left: 7px;
+
+}
+.admin-profile-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.admin-profile-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.admin-profile-dropbtn{
+    height: 46%;
+}
+.admin-profile-dropdown-content a:hover {background-color: lightgrey;color: black}
+.admin-profile-dropdown:hover .admin-profile-dropdown-content {display: block;}
+.admin-profile-dropdown:hover .admin-profile-dropbtn {background-color: cornflowerblue}
+
+
+.products{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+
+}
+
+.products i{
+    padding: 4px;
+}
+
+
+
+
+
+
+

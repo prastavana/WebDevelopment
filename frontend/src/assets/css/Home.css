@@ -1,0 +1,494 @@
+.hm-container{background: white;}
+
+.hm-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    z-index: 1000;
+    /* Gradient background */
+    background: linear-gradient(to right, #accbff, #6516ff, black);
+}
+
+Home-top-bar button {
+    background: linear-gradient(to right, #accbff, #6516ff, black); /* Same gradient background as home-header */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+}
+
+/* Apply hover effect for buttons */
+.home-top-bar button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add a subtle hover effect */
+}
+
+.hm-btn-one button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+/* Change the border color when the button is hovered */
+.hm-btn-one button:hover {
+    border-bottom-color: black; /* Change to your desired border color */
+}
+
+.hm-btn-four button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+    background-color: transparent;
+}
+/* Change the border color when the button is hovered */
+.home-btn-four button:hover {
+    border-bottom-color: black; /* Change to your desired border color */
+}
+
+.hm-container .hm-top-bar{
+    display:flex;
+    background-color: white;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    z-index: 1000;
+
+
+}
+
+
+.hm-btn-three {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hm-btn-three button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: black;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+}
+
+/* Adjust the styling for other buttons as needed */
+
+.hm-btn-three button:hover {
+    border-bottom-color: black;
+}
+.hm-logo img {
+    width:130px; /* Set the desired width of the logo */
+    height: 120px; /* Maintain aspect ratio */
+    margin-top: -17px; /* Add top margin for spacing, adjust as needed */
+
+}
+
+.sb-searchbar {
+    flex-grow: 1; /* Allow the search bar to take up remaining space */
+    margin-left: 15px;
+    /* Adjust the left margin for spacing, change as needed */
+}
+
+
+.sb-searchbar input {
+    width: 100%; /* Take up 100% of the available width within .searchbar */
+    padding: 10px; /* Add padding for better visual appearance, adjust as needed */
+    box-sizing: border-box;
+    margin-top: 14px;
+    background-color: transparent; /* Include padding in the width calculation */
+    color: black;
+    border-radius:40px ;
+    font-size: 16px;
+    border: 2px solid black;
+    outline: none;
+
+}
+
+.sb-searchbar input::placeholder {
+    color: black; /* Change the color of the placeholder text */
+    font-size: 16px; /* Adjust the font size of the placeholder text */
+}
+
+.hm-btn-four button {
+    margin-right: 15px;
+    margin-left: 25px;
+    background-color:transparent;
+    color: white;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+
+}
+.sb-searchButton button{
+    margin-left:-43px;
+    margin-top: 23px;
+    background-color:transparent;
+    color: black;
+    cursor: pointer;
+    padding:5px;
+    border: none;
+
+
+}
+.sb-searchButton i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px;}/* Add spacing between the icon and text */
+.hm-btn-four button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
+.hm-btn-one  button {
+    margin-left: 10px;
+    background-color:transparent;
+    color: black;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+
+}
+
+.hm-btn-one button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px;}/* Add spacing between the icon and text */
+
+.hm-btn-cato  button {
+    margin-left: 10px;
+    background-color:transparent;
+    color: black;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+
+}
+
+.hm-btn-cato button i {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 10vh;}
+
+
+.hm-container.hm-footer{
+
+
+    display: flex;
+    height:40% ;
+    background: black;
+    /*margin-top: 20px;*/
+    font-size: 5px;
+    /*align-items: flex-end;*/
+    justify-content: space-around;
+
+}
+.hm-footer .home-get-help{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+
+
+}
+.hm-footer .hm-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -75px;
+
+}
+.hm-footer .hm-logos{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+
+}
+.hm-logos img{
+    padding: 8px}
+.home-get-help button{
+    background-color: black;
+    color: black;
+    font-size: 14px;
+    border: none;
+
+}
+.home-get-help button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+.home-get-help span{
+    font-size: 13px;
+    margin-top: 15px;
+    color: black;
+    /*padding-bottom: -50px;*/
+    /*margin-bottom: -60px;*/
+
+
+}
+
+.hm-about-us button{
+    background-color: black;
+    color: black;
+    font-size: 14px;
+    border: none;
+
+}
+.hm-about-us button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+.hm-about-us h1{
+    color: white;
+    font-size: 15px;
+}
+.home-get-help h1{
+    color: white;
+    font-size: 15px;
+}
+
+
+.hm-logos span{
+    font-size: 16px;
+    color: black;
+
+
+}
+
+.hm-logos img{
+    cursor: pointer;
+}
+
+.hm-body {
+    height: 380vh;
+    background-color: #dcf3ff;
+}
+
+.hm-dashboard1{
+    height: 185vh;
+    display: flex;
+    background-color: #dcf3ff;
+    flex-wrap: wrap;;
+    gap: 10px;
+}
+
+.hm-dashboard2{
+    height: 180vh;
+    background-color: #dcf3ff;
+    display: flex;
+    flex-wrap: wrap;;
+    gap: 10px;
+}
+.hm-img-dashboard1 {
+    width: 94vw;
+    height: 80vh;
+    background-color:#dcf3ff;
+
+
+}
+.hm-img-dashboard1 img {
+    padding-left: 5%;
+    padding-top: 20px;
+    width: 90%;
+    height: 80vh;
+}
+.hm-img-dashboard2 {
+    width: 95%;
+    height: 80vh;
+
+}
+.hm-img-dashboard2 img {
+    padding-left: 5%;
+    padding-top: 20px;
+    width: 94vw;
+    height: 78vh;
+}
+.product-dashboard1{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-left: 70px;
+    width: 89.5vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+.product-dashboard2{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-left: 70px;
+    width: 89.5vw;
+    height: 110vh;
+    border: 2px solid black;
+}
+
+.home-btn-one button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+/* Change the border color when the button is hovered */
+.hm-btn-one button:hover {
+    border-bottom-color: black; /* Change to your desired border color */
+}
+.hm-btn-four button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+/* Change the border color when the button is hovered */
+.hm-btn-four button:hover {
+    border-bottom-color: black; /* Change to your desired border color */
+}
+.item-section{
+    background-color: white;
+    row-gap: 2px;
+    width: 14vw;
+    height: 45vh;
+    cursor: pointer;
+
+
+}
+.item-section .item-image{
+    width: 14vw;
+}
+.item-section .item-image img{
+    width: 14vw;
+    height: 30vh;
+}
+.item-section p{
+    margin: 2px;
+
+}
+.item-info{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.item-info p{
+    color: black;
+    font-weight: 500;
+}
+.item--desc-detail p{
+    color: black;
+    font-weight: 700;
+
+}
+.item-quantity p{
+    color: black;
+}
+.item-desc{
+    display: flex;
+    column-gap: 70px;
+}
+.item-section:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow on hover */
+}
+.product-not-found-message p{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.brand-list {
+    position: absolute;
+    top: 80%;
+    left: 140px;
+    width: 80px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.brand-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.brand-item:last-child {
+    border-bottom: none;
+}
+.custom-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.custom-dropdown.show {
+    max-height: 300px; /* Set the maximum height you desire */
+}
+
+.hm-btn-two button {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.hm-btn-two button:hover {
+    border-bottom-color: black;
+}
+
+.hm-btn-two {
+    display: flex;
+    align-items: center;
+}
+
+.hm-btn-two button {
+    background-color: white;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.hm-btn-two button:hover {
+    border-bottom-color: black;
+}
+
+.hm-categories-dropdown {
+    position: relative;
+}
+
+.custom-dropdown-category {
+    width: 150px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-dropdown-category.show {
+    max-height: 300px;
+}
+
+.category-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.category-item:last-child {
+    border-bottom: none;
+}

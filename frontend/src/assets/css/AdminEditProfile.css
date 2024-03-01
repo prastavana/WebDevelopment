@@ -1,0 +1,245 @@
+
+.aeditp-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.aeditp-buttons{
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+
+}
+.aeditp-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+.aeditp-btn button{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+.aeditp-btn button i{
+    margin-right: 10px;
+}
+.aeditp-top span{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.aeditp-top i{
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.aeditp-btn button.products:hover {
+    background-color: lightgray;
+
+
+}
+.aeditp-btn button.product{
+    background-color: lightgrey;
+}
+
+.aeditp-display h2{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    margin-left: 1px;
+}
+
+.aeditp-display{
+    display: flex;
+    margin:10px;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 30px;
+
+}
+.aeditp-display input{
+    width: 200%;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+
+}
+
+.aeditp-display label{
+    color: white;
+}
+
+.aeditp-display button{
+    width: 100px;
+    font-size: 11px;
+}
+.aeditp-ap-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+
+}
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.aeditp-ap-dropdown i{
+    margin-left: 7px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.aeditp-ap-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+/* Links inside the dropdown */
+.aeditp-ap-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.aeditp-ap-dropbtn{
+    height: 46%;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.aeditp-ap-dropdown-content a:hover {background-color: lightgrey;color: black}
+
+/* Show the dropdown menu on hover */
+.aeditp-ap-dropdown:hover .aeditp-ap-dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.aeditp-ap-dropdown:hover .aeditp-ap-dropbtn {background-color: transparent}
+
+.aeditp-cat-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.aeditp-cat-dropdown i{
+    margin-left: 7px;
+}
+.aeditp-cat-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+.aeditp-cat-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.aeditp-cat-dropbtn{
+    height: 46%;
+}
+.aeditp-cat-dropdown-content a:hover {background-color: lightgrey;color: black}
+.aeditp-cat-dropdown:hover .aeditp-cat-dropdown-content {display: block;}
+.aeditp-cat-dropdown:hover .aeditp-cat-dropbtn {background-color: transparent}
+
+.aeditp-brand-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.aeditp-brand-dropdown i{
+    margin-left: 7px;
+}
+.aeditp-brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+.aeditp-brand-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.aeditp-brand-dropbtn{
+    height: 46%;
+}
+.aeditp-brand-dropdown-content a:hover {background-color: lightgrey;color: black}
+.aeditp-brand-dropdown:hover .aeditp-brand-dropdown-content {display: block;}
+.aeditp-brand-dropdown:hover .aeditp-brand-dropbtn {background-color: transparent}
+
+
+.aeditp-pro-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.aeditp-pro-dropdown i{
+    margin-left: 7px;
+}
+.aeditp-pro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.aeditp-pro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.aeditp-pro-dropbtn{
+    height: 46%;
+}
+.aeditp-pro-dropdown-content a:hover {background-color: lightgrey;color: black}
+.aeditp-pro-dropdown:hover .aeditp-pro-dropdown-content {display: block;}
+.aeditp-pro-dropdown:hover .aeditp-pro-dropbtn {background-color: transparent}
+
+.aeditp-save-buttons button{
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    background-color: #86b7fe;
+    width: 22vh;
+}

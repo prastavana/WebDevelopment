@@ -1,0 +1,236 @@
+.addbrd-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.addbrd-buttons{
+    width: 17vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+
+}
+.addbrd-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 16vw;
+    margin-left: 8px;
+}
+.addbrd-btn button{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+.addbrd-btn button i{
+    margin-right: 10px;
+}
+.addbrd-top span{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.addbrd-top i{
+    font-size: 21px;
+    margin-left: 13px;
+    color: white;
+}
+
+.addbrd-btn button.products:hover {
+    background-color: lightgray;
+
+
+}
+.addbrd-btn button.product{
+    background-color: lightgrey;
+}
+
+.addbrd-display h2{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.addbrd-display{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    row-gap: 20px;
+}
+.addbrd-display input{
+    background-color: white;
+    width: 200%;
+    color: black;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.addbrd-display button{
+    background-color: #92bbff;
+    margin-left: 10px;
+    padding: 10px;
+    color : white;
+}
+.addbrd-desc{
+    height: 90px;
+}
+.addbrd-display input::placeholder{
+    color: black;
+}
+.addbrd-pro-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+
+}
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.addbrd-pro-dropdown i{
+    margin-left: 7px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.addbrd-pro-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 113px;
+}
+
+/* Links inside the dropdown */
+.addbrd-pro-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.addbrd-pro-dropbtn{
+    height: 46%;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.addbrd-pro-dropdown-content a:hover {background-color: lightgrey;color: black}
+
+/* Show the dropdown menu on hover */
+.addbrd-pro-dropdown:hover .addbrd-pro-dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.addbrd-pro-dropdown:hover .addbrd-pro-dropbtn {background-color: transparent}
+
+.addbrd-cat-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.addbrd-cat-dropdown i{
+    margin-left: 7px;
+}
+.addbrd-cat-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+.addbrd-cat-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.addbrd-cat-dropbtn{
+    height: 46%;
+}
+.addbrd-cat-dropdown-content a:hover {background-color: lightgrey;color: black}
+.addbrd-cat-dropdown:hover .addbrd-cat-dropdown-content {display: block;}
+.addbrd-cat-dropdown:hover .addbrd-cat-dropbtn {background-color: transparent}
+
+.addbrd-brand-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.addbrd-brand-dropdown i{
+    margin-left: 7px;
+}
+.addbrd-brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+.addbrd-brand-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.addbrd-brand-dropbtn{
+    height: 46%;
+}
+.addbrd-brand-dropdown-content a:hover {background-color: lightgrey;color: black}
+.addbrd-brand-dropdown:hover .addbrd-brand-dropdown-content {display: block;}
+.addbrd-brand-dropdown:hover .addbrd-brand-dropbtn {background-color: transparent}
+
+
+.addbrd-profile-dropbtn{
+    background-color: lightgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 99%;
+}
+.addbrd-profile-dropdown i{
+    margin-left: 7px;
+}
+.addbrd-profile-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.addbrd-profile-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button.addbrd-profile-dropbtn{
+    height: 46%;
+}
+.addbrd-profile-dropdown-content a:hover {background-color: lightgrey;color: black}
+.addbrd-profile-dropdown:hover .addbrd-profile-dropdown-content {display: block;}
+.addbrd-profile-dropdown:hover .addbrd-profile-dropbtn {background-color: transparent}
+

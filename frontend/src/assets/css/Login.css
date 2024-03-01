@@ -1,0 +1,99 @@
+/* Login Container styles */
+.login-container {
+    background-color: rgba(187, 185, 185, 0.072); /* Grey background with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 239, 239, 0.9); /* Box shadow for a subtle effect */
+    max-width: 400px; /* Decrease the maximum width */
+    width: 25vw; /* Ensure the width is 100% of the parent container */
+    margin: 0 auto; /* Center the box horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+/* Login Header styles */
+.login-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Login Logo styles */
+.login-logo img {
+    width: 100px; /* Adjust the size of the logo image */
+    height: auto;
+}
+
+/* Login Text styles */
+.login-text h1 {
+    font-size: 24px; /* Increase the font size of the login text */
+    color: white;
+}
+
+/* Login Form styles */
+.login-form {
+    background-color: rgba(235, 229, 229, 0); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Login Body styles */
+.login-body input {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: rgba(230, 226, 226, 0.411);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(240, 239, 239, 0.9);
+    border-color: white;
+    margin-bottom: 16px;
+}
+
+/* Login Footer styles */
+.login-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login Forgot styles */
+.login-forgot {
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+}
+
+/* Login Button styles */
+.login-btn button {
+    background-color: #77aaff; /* Green color for the button */
+    color: white;
+    width: 9vw;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.login-btn button:hover {
+    background-color: #99ccff; /* Darker green on hover */
+}
+
+/* Login Link styles */
+.login-link {
+    color: white; /* Change color of "Don't have an account?" text to white */
+    margin-top: 12px;
+    text-align: center;
+}
+
+.login-link a {
+    color: #b8f5ff; /* Change color of "Register" link to light blue */
+    font-weight: bold;
+}
